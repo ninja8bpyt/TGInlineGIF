@@ -38,8 +38,8 @@ class Msg:
             ],
             [
                 InlineKeyboardButton(
-                text = "📚 Source",
-                url = "https://github.com/Abhijith-cloud/TGInlineGIF/"
+                text = "JOIN CHANNEL",
+                url = "https://t.me/bots_ki_duniya/"
                 )
             ]
         ]
