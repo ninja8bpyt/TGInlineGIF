@@ -10,7 +10,7 @@ def startMsg(update: Update, context: CallbackContext)->None:
         duration = 1.47,
         width = 376,
         height = 200,
-        caption = f"Hi <b>{update.effective_chat.username}</b>{Msg.START}",
+        caption = f"**Hi** <b>{update.effective_chat.username}</b>{Msg.START}",
         parse_mode = ParseMode.HTML,
         reply_markup = InlineKeyboardMarkup(Msg.keyboard)
     )
